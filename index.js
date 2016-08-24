@@ -11,6 +11,6 @@ function extname (str) {
 	let slug = str.split(/\/|\\/).slice(-1)[0];
 	let idx = slug.lastIndexOf('.');
 	if (idx < 0) return '';
-	let ext = slug.slice(idx + 1);
+	let ext = slug.slice(idx);
 	return ext;
 }
