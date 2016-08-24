@@ -1,6 +1,6 @@
 {
   "name": "get-ext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tiny path.extname method",
   "main": "index.js",
   "scripts": {
